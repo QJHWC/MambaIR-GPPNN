@@ -1,0 +1,21 @@
+{
+    "best_psnr": 40.16337936401367,
+    "total_time_hours": 7.0342174896928995,
+    "config": {
+        "model_size": "base",
+        "img_size": 256,
+        "epochs": 80,
+        "batch_size": 1,
+        "lr": 0.0002,
+        "num_workers": 2,
+        "save_dir": "./checkpoints_optimized",
+        "val_freq": 5,
+        "save_freq": 10,
+        "use_wsm": true,
+        "use_dca_fim": true,
+        "use_dsc": true,
+        "use_wacx": true,
+        "lambda_s": 0.3,
+        "lambda_w": 0.5
+    }
+}

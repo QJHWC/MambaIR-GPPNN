@@ -1,13 +1,21 @@
-
-.idea/
-*.class
-*.java~
-.history/
-*.swp
-.pytest_cache/
+# Python
 __pycache__/
-.scratch
-*.beam
-.DS_Store
-venv/
-generated/
+*.py[cod]
+*.pyc
+
+# 训练产物（太大，不上传）
+checkpoints/
+checkpoints_safe/
+checkpoints_optimized/
+logs/
+*.pth
+*.pt
+
+# 数据集（不上传）
+photo/dataset/
+photo/testdateset/
+
+# 临时文件
+*.tmp
+*.log
+*.bak

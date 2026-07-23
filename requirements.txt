@@ -1,0 +1,13 @@
+# Runtime dependencies for Python 3.10+.
+#
+# Install a CUDA-specific PyTorch build first when GPU acceleration is needed:
+# https://pytorch.org/get-started/locally/
+torch>=2.0,<3
+torchvision>=0.15,<1
+
+numpy>=1.23,<3
+opencv-python-headless>=4.8,<5
+Pillow>=9.5,<13
+psutil>=5.9,<8
+tensorboard>=2.12,<3
+tqdm>=4.65,<5

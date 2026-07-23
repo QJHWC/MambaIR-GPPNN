@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below and cite
+  the related research listed in THIRD_PARTY_NOTICES.md.
+title: "MambaIR-GPPNN: Experimental v2.2"
+type: software
+authors:
+  - family-names: Qin
+    given-names: Jiahong
+version: "2.2"
+abstract: >-
+  An experimental, MambaIR-inspired research implementation for multispectral
+  and panchromatic image fusion. It includes independently implemented
+  GPPNN-inspired progressive fusion components.
+keywords:
+  - pansharpening
+  - image fusion
+  - remote sensing
+  - deep learning
+license: MIT
+repository-code: "https://github.com/QJHWC/MambaIR-GPPNN"
+url: "https://github.com/QJHWC/MambaIR-GPPNN"

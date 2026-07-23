@@ -1,0 +1,34 @@
+# Normalize text files in the repository. Shell scripts must remain LF on all
+# platforms so they can run directly on Linux.
+* text=auto eol=lf
+
+*.cff  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.py   text eol=lf
+*.sh   text eol=lf
+*.toml text eol=lf
+*.txt  text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+LICENSE text eol=lf
+
+# Explicitly mark common data and model formats as binary. They are ignored by
+# default, but these declarations keep accidental small fixtures unmodified.
+*.ckpt binary
+*.gif  binary
+*.ico  binary
+*.jpeg binary
+*.jpg  binary
+*.mat  binary
+*.npy  binary
+*.npz  binary
+*.onnx binary
+*.pdf  binary
+*.png  binary
+*.pt   binary
+*.pth  binary
+*.safetensors binary
+*.tif  binary
+*.tiff binary
+*.webp binary

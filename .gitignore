@@ -1,0 +1,84 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+.hypothesis/
+.nox/
+.tox/
+__pypackages__/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Editors, local assistants, and operating-system files
+.idea/
+.vscode/
+.vs/
+.fleet/
+.claude/
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local datasets (the data/ Python package remains tracked)
+/photo/
+/dataset/
+/datasets/
+/data/raw/
+/data/interim/
+/data/processed/
+/data/external/
+
+# Model checkpoints and exported weights
+/checkpoints*/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Training, evaluation, and experiment outputs
+/logs*/
+/results*/
+/outputs/
+/runs/
+/wandb/
+events.out.tfevents.*
+*.log
+
+# Local toolchains and generated artifacts
+/.cargo/
+/.torch/
+torch_extensions/
+*.tmp
+*.temp
+*.bak
+*.orig
